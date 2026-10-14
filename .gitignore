@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+cache/
+coverage/
+coverage.json
+.env
+.env.*
+!.env.example
+typechain-types/
+.DS_Store
