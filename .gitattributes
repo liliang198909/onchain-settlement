@@ -1,0 +1,6 @@
+# GitHub's language breakdown counts raw line numbers, which would let the
+# Hardhat test suite and deploy scripts outweigh the contracts themselves.
+# The deliverable here is Solidity; the JS is tooling around it.
+test/**            linguist-detectable=false
+scripts/**         linguist-detectable=false
+hardhat.config.js  linguist-detectable=false
